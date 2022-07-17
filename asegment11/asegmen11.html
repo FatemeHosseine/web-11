@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="asegment11.css">
+</head>
+
+<body>
+
+    <div class="sec-1">
+        <div class="hat" id="my_hat">
+            <div class="eye-right" id="eye"></div>
+            <div class="eye-left" id="eye_2"></div>
+
+        </div>
+        <div class="tan" id="tan"></div>
+
+
+    </div>
+
+    <div class="anten-1"></div>
+    <div class="anten-2"></div>
+    <div class="hand-left"></div>
+    <div class="hand-right"></div>
+    <div class="foot-left"></div>
+    <div class="foot-right"></div>
+    
+
+        <div id="h"><b>android</b> </div>
+
+
+        
+
+
+
+
+
+        <script>
+            var l = document.getElementById("tan")
+            var my_eye = document.getElementById("eye")
+            var my_eye_2 = document.getElementById("eye_2")
+            var my_hat = document.getElementById("my_hat")
+            l.onclick = function () {
+                my_eye.style.width = "8px";
+                my_eye.style.height = "8px";
+                my_eye_2.style.width = "8px"
+                my_eye_2.style.height = "8px"
+                my_eye.style.transition = "6s";
+                my_eye_2.style.transition = "6s";
+                my_eye.style.opacity = "0.5";
+                my_eye_2.style.opacity = "0.5";
+
+            }
+            my_hat.onclick = function () {
+                my_eye.style.width = "30px";
+                my_eye.style.height = "30px";
+                my_eye_2.style.width = "30px";
+                my_eye_2.style.height = "30px";
+                my_eye.style.transition = "6s";
+                my_eye_2.style.transition = "6s";
+                my_eye.style.opacity = "0.5";
+                my_eye_2.style.opacity = "0.5";
+            } 
+        </script>
+
+
+</body>
+
+</html>
